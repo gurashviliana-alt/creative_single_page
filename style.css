@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  font-family: "Commissioner", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px 21px 24px;
+  justify-content: space-around;
+}
+header .left_nav .burger {
+  width: 24px;
+  height: 18px;
+  display: block;
+}
+header .left_nav ul {
+  left: 100px;
+  width: 252px;
+  height: 292px;
+  background-color: #000000;
+  display: none;
+  position: absolute;
+  padding-bottom: 24px;
+}
+header .left_nav ul li {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+header .left_nav ul button {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background-color: #F94F4F;
+  border: none;
+}
+header .left_nav ul button:hover {
+  opacity: 0.5;
+}
+header .left_nav:hover ul {
+  display: block;
+}
+
+main .all-div {
+  padding-bottom: 50px;
+}
+main .image_right {
+  padding-bottom: 25px;
+  width: 375px;
+  height: 250px;
+}
+main .texst-left {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+main .texst-left h2 {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+main .texst-left p {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+main .texst-left .button_1 {
+  width: 177px;
+  height: 72px;
+  background-color: #F94F4F;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+main .texst-left .button_1:hover {
+  opacity: 0.5;
+}
+main .coffi {
+  background-color: #191921;
+}
+main .coffi .box1 {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 72px;
+}
+main .coffi .box1 h2 {
+  color: #F94F4F;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding-bottom: 24px;
+}
+main .coffi .box1 h2 span {
+  color: #FFFFFF;
+}
+main .coffi .box1 p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+main .coffi .box1 h4 {
+  color: #F94F4F;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+main .cards {
+  background-color: #F94F4F;
+  padding-top: 96px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 96px;
+}
+main .cards h2 {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding-bottom: 49px;
+}
+main .cards .card {
+  position: relative;
+  padding-bottom: 40px;
+}
+main .cards .card img {
+  position: absolute;
+  padding-bottom: 15px;
+  top: -25px;
+  left: -15px;
+}
+main .cards .card h3 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+main .cards .card p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  align-items: center;
+  padding-right: 24px;
+}
+main .container {
+  position: relative;
+}
+main .container .photo_texsts {
+  width: 100%;
+  position: absolute;
+  display: inline-flex;
+  padding-left: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: aqua;
+}
+main .container .photo_texsts h4 {
+  color: #FFF;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+main .container .photo_texsts p {
+  color: #FFF;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+main .contain_left {
+  background-color: #191921;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 0;
+}
+main .contain_left h2 {
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding-bottom: 24px;
+  padding-top: 64px;
+}
+main .box2 {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 100px;
+}
+main .box2 h2 {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+main .box2 button {
+  width: 199px;
+  height: 64px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background-color: #F94F4F;
+  border: none;
+}
+main .box2 button:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
